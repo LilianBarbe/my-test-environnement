@@ -1,7 +1,7 @@
 "use strict";
 import { gsap } from "gsap";
 
-const prenom = "toi";
+const prenom = "Lilian, bien joué";
 console.log(`Salut ${prenom} ! 😃`);
 
 // Animation simple avec GSAP
