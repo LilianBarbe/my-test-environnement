@@ -1,2 +1,2 @@
 const prenom = "Lilian";
-console.log(`Salut ${prenom} =`);
+console.log(`Salut ${prenom} !`);
