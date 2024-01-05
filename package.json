@@ -1,0 +1,22 @@
+{
+  "name": "my-test-environnement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild index.js --bundle --minify --outfile=dist/index.js --watch",
+    "build-no-m": "esbuild index.js --bundle --outfile=dist/index.js --watch",
+    "build-by-file": "node builder.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.12.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.11"
+  }
+}
